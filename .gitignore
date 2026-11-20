@@ -1,0 +1,27 @@
+# 这个工作区里只开源 Chess 项目，其余目录一律忽略
+/*
+!/.gitignore
+!/LICENSE
+!/README.md
+!/Chess/
+!/Chess-App/
+!/docs/
+
+# 构建产物
+**/bin/
+**/obj/
+**/.vs/
+*.csproj.user
+
+# 安装包目录里只保留脚本、图标与 dist 成品
+Chess-App/*.exe
+Chess-App/*.dll
+Chess-App/*.deps.json
+Chess-App/*.runtimeconfig.json
+Chess-App/app.ico
+Chess-App/debug.log
+Chess-App/dist/debug.log
+
+# 对局记录属于个人数据，不入库
+Chess-App/Records/
+**/Records/
